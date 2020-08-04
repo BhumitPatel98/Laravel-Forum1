@@ -22,7 +22,7 @@
         <hr>
 
         {!! $discussion->content !!}
-
+        
         @if ($discussion->bestReply)
           <div class="card bg-success my-5" style="color: white">
 
